@@ -4,7 +4,7 @@
 	<title>Links in HTML</title>
 </head>
 <body>
-	<header>Types of Links in HTML (Internal and External)</header>
+	<header id="top">Types of Links in HTML (Internal and External)</header>
 
 	<h1>Section 1 - Internal Links</h1>
 	<div>Internal links are fetched from the same source directory as the current page.</div>
@@ -16,5 +16,12 @@
 	<div>Following is an example of an external link</div>
 	<a href="http://google.com" target="_blank" title="Google.com">Google.com</a>
 
+	<h1>Section 3 - Same Page Links</h1>
+	<a href="#section4">#Section4</a>
+
+	<h1 id="section4" Section 4 - Same Page Links></h1>
+	<footer>
+		<a href="#top">Top of the page</a>
+	</footer>
 </body>
 </html>
